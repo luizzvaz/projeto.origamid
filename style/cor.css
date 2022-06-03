@@ -1,6 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
 :root{
     --cor-branca: #ffffff;
     --cor-p1:#000000;
     --cor-p2:#111111;
     --cor-p3:#2e2e2e;
+    --cor-p4:#b2b2b2b2;
+    --cor-ponto:#ffbb00;
+    --cor-botao:#f2a50c;
+    --cor-pontohover:#ffb60d;
+    --cor-botaohover:#e59317;
+    --cor-txbotao:#332200;
+    --font-popis:'Poppins', sans-serif;
+    --font-robot:'Roboto', sans-serif;
 }

@@ -25,6 +25,7 @@ header{
     color: var(--cor-branca);
     transition-duration: 0.4s;  
     position: relative;  
+    font-family: var(--font-popis);
 }
 .header-menu a::after{
     content: "";
