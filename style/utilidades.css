@@ -1,16 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
 :root{
-    --cor-branca: #ffffff;
+    /*cores*/
+    --cor-p0:#ffffff;
     --cor-p1:#000000;
     --cor-p2:#111111;
     --cor-p3:#2e2e2e;
-    --cor-p4:#b2b2b2b2;
+    --cor-p4:#404040;
+    --cor-p5:#595959;
+    --cor-p6:#717171;
+    --cor-p7:#9c9c9c;
+    --cor-p8:#b2b2b2b2;
+    --cor-p9:#cccccc;
+    --cor-p10:#dedede;
+    --cor-p11:#ededed;
+    --cor-p12:#f7f7f7;
+
     --cor-ponto:#ffbb00;
     --cor-botao:#f2a50c;
     --cor-pontohover:#ffb60d;
     --cor-botaohover:#e59317;
     --cor-txbotao:#332200;
+
+    --cor-definir:#664400;
+    --cor-definir1:#a66f00;
+    --cor-definir2:#e4a30b;
+
+    /*fontes*/
     --font-popis:'Poppins', sans-serif;
     --font-robot:'Roboto', sans-serif;
+}
+/*classes de ultilidades*/
+
+.ponto{
+    color: var(--cor-ponto);
 }

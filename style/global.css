@@ -1,7 +1,9 @@
+@import"style/utilidades.css";
 body{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     height: 3000px;
+    color: #111111;
 }
 ul,h1,h2,h3,p{
     margin: 0px;
@@ -19,5 +21,28 @@ a{
 }
 img{
     max-width: 100%;
+}
+.botao{
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-image: linear-gradient(var(--cor-ponto), var(--cor-botao));
+    border-radius: 5px;
+    box-shadow:  0 1px 2px  rgb(0, 0, 0.11);
+    text-transform: uppercase;
+    color:var(--cor-txbotao) ;
+    font-size: 1.12rem;
+    line-height: 1.33;
+    font-family: var(--font-popis);
+    font-weight: 600;
+
+}
+.botao:hover{
+    background-image: linear-gradient(var(--cor-pontohover), var(--cor-botaohover));
+}
+/* botão */
+@media(max-width:600px){
+    .botao{
+        font-size: 0.7rem;
+    }
 }
 

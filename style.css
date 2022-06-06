@@ -1,4 +1,5 @@
 @import"style/global.css";
 @import"style/header.css";
-@import"style/main.css";
-@import"./cor.css";
+@import"style/introducao.css";
+@import"style/utilidades.css";
+@import"style/tipografia.css";
