@@ -81,10 +81,20 @@
     font-family:var(--font-robot), sans-serif;    
 }
 @media(max-width:1200px){
-    .introducao h1{
+    .font1-ggx-h1{
         font-size: 3rem;
     }
-    .introducao p{
+    .font2-m-p,
+    .fonte2-mb{
         font-size: 1.2rem;
+    }
+}
+@media(max-width:800px){
+    .font1-ggx-h1{
+        font-size: 2rem;
+    }
+    .font1-gg,
+    .font2-gg{
+        font-size: 1.5rem;
     }
 }

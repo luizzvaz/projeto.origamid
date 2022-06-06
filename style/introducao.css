@@ -40,9 +40,7 @@ em{
 
 
 @media(max-width:800px){
-    .introducao h1{
-        font-size: 2rem;
-    }
+   
     .introducao-container{
         grid-template-columns: 1fr;
         gap: 2rem;
