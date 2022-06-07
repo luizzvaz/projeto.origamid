@@ -1,7 +1,19 @@
+/*utilidades*/
 @import"style/global.css";
-@import"style/header.css";
-@import"style/introducao.css";
 @import"style/utilidades.css";
 @import"style/tipografia.css";
+/*cabeçalho*/
+@import"style/header.css";
+/*home*/
+@import"style/introducao.css";
+@import"style/tecnologia.css";
+@import"style/parceiros.css";
+@import"style/depoimento.css";
+/*tbm serão utilizados em outra paginas*/
 @import"style/bicicletas-lista.css";
+@import"style/seguros.css";
+
+
+
+
 

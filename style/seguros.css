@@ -1,0 +1,73 @@
+.seguros{
+    color: var(--cor-p0);
+    background-color: var(--cor-p2);
+}
+.seguros-itens h3{
+    color: var(--cor-p6);
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.seguros li{
+    color: var(--cor-p0);
+}
+.ouro h3{
+    color: var(--cor-ponto);
+    
+}
+.seguros.container{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: center;
+}
+.seguros h2{
+    grid-column: 1/-1;
+}
+.seguros-itens{
+    background-color: var(--cor-p1);
+    padding: 2rem 2rem 2rem  3.75rem;
+    display: grid;
+    grid-template-columns: 1fr auto;
+}
+.seguros span{
+    grid-column: 2;
+    color: var(--cor-p0);
+    text-align: right;
+}
+span .mensal{
+    color: var(--cor-p6);
+    display: block;
+}
+.seguros-itens ul{
+    grid-column: 1/-1;
+    margin-bottom: 2rem;
+}
+.seguros-itens li{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.seguros-itens li+li{
+    margin-top: 20px;
+}
+.seguros-itens li::before{
+    content: "";
+    display: inline-block;
+    width: 13px;
+    height: 9px;
+    background-image: url(../img/icones/lista.svg);
+    position: absolute;
+    left: -21px;
+}
+.seguros-itens a{
+    grid-column: 1/-1;
+    
+}
+@media(max-width:800px){
+    .seguros.container{
+        grid-template-columns: 1fr;
+    }
+}

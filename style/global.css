@@ -5,7 +5,7 @@ body{
     height: 3000px;
     color: #111111;
 }
-ul,h1,h2,h3,p{
+ul,h1,h2,h3,p,blockquote{
     margin: 0px;
 }
 ul{
@@ -26,7 +26,29 @@ img{
 img[src$=".jpg"] {
     border-radius:5px
 }
-
+/*botão e link para utilizar mais de uma vez*/
+.link{
+    margin-bottom: 5rem;
+    text-transform: uppercase;
+    display: inline-block;
+    color: var(--cor-a1);
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    font-family: var(--font-popis);
+    transition: 0.3s;
+    padding: 2px;
+}
+.link::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 4px;
+    background-color: currentColor;
+}
+.link:hover{
+    color: var(--cor-p0);
+}
 .botao{
     display: inline-block;
     padding: 1rem 2rem;
@@ -39,10 +61,19 @@ img[src$=".jpg"] {
     line-height: 1.33;
     font-family: var(--font-popis);
     font-weight: 600;
+    max-width: max-content;
 
 }
 .botao:hover{
     background-image: linear-gradient(var(--cor-pontohover), var(--cor-botaohover));
+}
+.botao.secundario{
+    background-image:linear-gradient(var(--cor-p3),var(--cor-p2));
+    color: var(--cor-p11);
+}
+.botao.secundario:hover{
+    background-image:linear-gradient(var(--cor-p3),var(--cor-p4));
+    color: var(--cor-p11);
 }
 /* botão */
 @media(max-width:600px){
