@@ -4,6 +4,8 @@
 @import"style/tipografia.css";
 /*cabeçalho*/
 @import"style/header.css";
+@import"style/footer.css";
+
 /*home*/
 @import"style/introducao.css";
 @import"style/tecnologia.css";
