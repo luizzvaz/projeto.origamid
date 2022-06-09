@@ -4,6 +4,7 @@
 @import"style/tipografia.css";
 /*cabeçalho*/
 @import"style/header.css";
+
 @import"style/footer.css";
 
 /*home*/
@@ -11,9 +12,14 @@
 @import"style/tecnologia.css";
 @import"style/parceiros.css";
 @import"style/depoimento.css";
+
 /*tbm serão utilizados em outra paginas*/
 @import"style/bicicletas-lista.css";
+
 @import"style/seguros.css";
+
+@import"style/termos.css";
+
 
 
 

@@ -82,3 +82,29 @@ img[src$=".jpg"] {
     }
 }
 
+/*Titulos das paginas internas*/
+.titulo-bg{
+    background-color: var(--cor-p1);
+    padding:60px 0px;
+}
+.titulo > p{
+    color: var(--cor-p7);
+    margin-bottom: 4px;
+}
+.titulo.container{
+    display: block;
+}
+.titulo > h1{
+    color: var(--cor-p0);
+}
+
+@media(max-width:800px){
+    .titulo-bg{
+        padding: 40px 0px;
+  }
+  .titulo > p{
+      text-transform: lowercase;
+      font-size: 1rem;
+      font-weight: 400;
+  }
+}
