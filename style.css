@@ -14,7 +14,10 @@
 @import"style/depoimento.css";
 
 /*tbm serão utilizados em outra paginas*/
-@import"style/bicicletas-lista.css";
+@import"style/bicicletas-lista.css"; 
+                /*PAGINAS DA BICICLETAS*/
+@import"style/bicicleta-pg-nimbus.css";
+
 
 @import"style/seguros.css";
             /*vantagnes dos seguros*/
