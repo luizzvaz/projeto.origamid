@@ -9,7 +9,8 @@ h1,
 h2,
 h3,
 p,
-blockquote{
+blockquote,
+dd{
     margin: 0px;
 }
 ul{
@@ -78,6 +79,22 @@ img[src$=".jpg"] {
 .botao.secundario:hover{
     background-image:linear-gradient(var(--cor-p3),var(--cor-p4));
     color: var(--cor-p11);
+}
+.botao.seta{
+    display: flex;
+    align-items: center;
+}
+.botao.seta::after{
+    content: "";
+    display: inline-block;
+    width: 18px;
+    height: 10px;
+    margin-left: 12px;
+    background-image: url(../img/icones/seta.svg);
+    transition: transform 0.5s;
+}
+.botao.seta:hover:after{
+    transform: translateX(6px);
 }
 /* botão */
 @media(max-width:600px){
