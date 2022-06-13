@@ -1,0 +1,34 @@
+.seguro-bicicleta-bg{
+    background-color: var(--cor-p2);
+    box-shadow: inset 0 80px var(--cor-p0), inset 0 -180px var(--cor-p1);
+}
+.seguro-bicicleta-bg h2{
+    color: var(--cor-p0);
+    margin-bottom: 20px;
+}
+.seguro-bicicleta-bg p{
+    color: var(--cor-p7);
+    margin-bottom: 20px;
+
+}
+.seguro-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.seguro-conteudo{
+    padding:  180px 0px;
+}
+.seguro-conteudo a{
+    margin-bottom: 20px;
+}
+@media(max-width:800px){
+    .seguro-conteudo{
+        grid-row: 1;
+        padding: 40px 0 0 0;
+    }
+    .seguro-bicicleta-bg{
+        box-shadow:  inset 0 -100px var(--cor-p1);
+    }
+
+}
