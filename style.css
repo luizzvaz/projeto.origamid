@@ -19,7 +19,11 @@
 @import"style/bicicleta-pg-nimbus.css";
 @import"style/seguro-bicicleta-pg.css";
 
+/*CONTATOS*/
+@import"style/contato.css";
 
+/*FOMUNALRIO*/
+@import"style/formulario.css";
 
 @import"style/seguros.css";
             /*vantagnes dos seguros*/
