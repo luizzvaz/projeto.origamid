@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <title>Contato | Bikcraft</title>
 </head>
-<body id="Contato">
+<body id="contato">
     <header>
         <div class="header-container">
             <a href="./index.html"><img src="img/bikcraft.svg" alt="Bikcraft"></a>
@@ -31,7 +31,7 @@
         </div>
         
         <div class="contato container">
-            <section aria-label="Endereço">
+            <section aria-label="Endereço" class="contato-dados">
                 <h2 class="font1-m">Loja Online</h2>
                 <div class="contato-endereco font2-p">
                     <p>Rua logo ali,875 - Doburjão</p>
@@ -42,14 +42,74 @@
                     <a href="mailto:contato@bikcraft.com">contato@bikcraft.com</a>
                     <a href="mailto:assistencia@bikcraft.com">assistencia@bikcraft.com</a>
                     <a href="tel:+5581998989898">(81)99898-9898</a></li>
-
-
                 </address>
+
+                <div class="redes-sociais">
+                    <a href=".#"><img src="img/redes/facebook-p.svg" alt="Facebook"></a>
+                    <a href=".#"><img src="img/redes/instagram-p.svg" alt="Instagram"></a>
+                    <a href=".#"><img src="img/redes/youtube-p.svg" alt="YouTube"></a>
+                </div>
+            </section>  
+
+            <section class="contato-formulario" aria-label="Formulário">
+                <form class="form" action="./contato.html"> 
+                <div>
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" name="nome" placeholder="Seu nome">
+                </div>
+                <div>
+                    <label for="telefone">Telefone</label>
+                    <input type="text" name="telefpme" id="telefone" placeholder="(81) 98888-4444">
+                </div>
+                <div class="col-2">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="email@tanta.com">
+                </div>
+                <div class="col-2">
+                    <label for="mensagem">Mensagem</label>
+                    <textarea name="mensagem" id="mesnagem"  cols="30" rows="10" placeholder="O que você precisa?"></textarea>
+                </div>
+                <button class="botao col-2">Enviar Mensagem</button>
+            </form>
             </section>
 
         </div>
 
     </main>
+
+    <article class="lojas container">
+        <h2 class="font1-ggx-h1">Nossas Lojas <em class="ponto">.</em></h2>
+        <div class="lojas-item">
+            <img src="./img/lojas/rj.jpg" alt="mapa da loja bikcraft no Rio de Janeiro, botafogo ">
+            <div class="lojas-info">
+                <h3 class="font1-ggx-h1">Rio de Janeiro</h3>
+                <div class="lojas-dados font2-p">
+                    <p>Rua ali perto,65 </p>
+                    <p>Botafogo Rio de Janeiro - RJ</p>
+                </div>
+                <div class="lojas-dados font2-p">
+                    <a href="mailto:rj@bikcraft.com">assistencia@bikcraft.com</a>
+                    <a href="tel:+5581998989898">(81)99898-9898</a></li>
+                </div>
+                <p class="font1-p"> <img src="./img/icones/horario.svg" alt=""> 08-18h de seg à dom</p>
+            </div>
+        </div>
+        <div class="lojas-item">
+            <img src="./img/lojas/rj.jpg" alt="mapa da loja bikcraft no São Paulo, centro ">
+            <div class="lojas-info">
+                <h3 class="font1-ggx-h1">São Paulo</h3>
+                <div class="lojas-dados font2-p">
+                    <p>Rua pqp,65 </p>
+                    <p>Centro, São Paulo - SP</p>
+                </div>
+                <div class="lojas-dados font2-p">
+                    <a href="mailto:sp@bikcraft.com">assistencia@bikcraft.com</a>
+                    <a href="tel:+5581998989898">(81)99898-9898</a></li>
+                </div>
+                <p class="font1-p"> <img src="./img/icones/horario.svg" alt=""> 08-18h de seg à dom</p>
+            </div>
+        </div>
+    </article>
 
     <footer class="footer-bg">
         <div class="footer container" >

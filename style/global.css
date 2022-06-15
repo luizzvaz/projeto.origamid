@@ -67,6 +67,8 @@ img[src$=".jpg"] {
     font-family: var(--font-popis);
     font-weight: 600;
     max-width: max-content;
+    border: none;
+    cursor: pointer;
 
 }
 .botao:hover{

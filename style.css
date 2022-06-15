@@ -21,9 +21,11 @@
 
 /*CONTATOS*/
 @import"style/contato.css";
-
 /*FOMUNALRIO*/
 @import"style/formulario.css";
+@import"style/lojas.css";
+
+
 
 @import"style/seguros.css";
             /*vantagnes dos seguros*/
