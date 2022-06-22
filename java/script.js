@@ -12,3 +12,7 @@ function ativarLink(link){
 
 links.forEach(ativarLink);
 
+if(window.SimpleAnime){
+  new window.SimpleAnime();
+
+}
